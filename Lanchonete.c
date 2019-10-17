@@ -14,6 +14,7 @@ void cardapio(){ // printa o cardapio
     printf("        | 4 - Torrada - RS 2,00 |\n");
     printf("        | 5 - Refri   - RS 1,50 |\n");
     printf("        | 6 - Pão de queijo - RS 2,00 |\n");
+    printf("        | 7 - Suco - RS 5,00 |\n");
     printf("        |-----------------------|\n\n\n");
 }
 
@@ -52,6 +53,9 @@ int main(){
                 break;
             case 6:
                 total=2.00*y;printf("O Total é: R$ %.2f\n\n\n",total);
+                break;
+            case 7:
+                total=5.00*y;printf("O Total é: R$ %.2f\n\n\n",total);
                 break;
         }
         printf("Continuar pedindo? [0]Sim   [1]Nao\nResposta: ");
